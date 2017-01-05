@@ -116,7 +116,7 @@ namespace BusWatch
                 baselayout.AddView(lay[cnt].buslayout);
                 baselayout.AddView(lay[cnt].separator);
                 cnt++;
-
+                /*
                 lay[cnt] = new Buslayout();
                 lay[cnt].createview();
                 lay[cnt].busnum.Text = BusWatch.CfgRW.busstopinfo[cnt, 0];
@@ -124,7 +124,7 @@ namespace BusWatch
                 baselayout.AddView(lay[cnt].buslayout);
                 baselayout.AddView(lay[cnt].separator);
                 cnt++;
-
+                */
                 var button1 = view1.FindViewById<Button>(Resource.Id.button1);
                 button1.Click += delegate {
                     //lay[0].busstop.Text = "At return page";
@@ -162,7 +162,7 @@ namespace BusWatch
                 baselayout.AddView(lay[cnt2].buslayout);
                 baselayout.AddView(lay[cnt2].separator);
                 cnt2++;
-
+                /*
                 lay[cnt2] = new Buslayout();
                 lay[cnt2].createview();
                 lay[cnt2].busnum.Text = BusWatch.CfgRW.busstopinfo[cnt2, 0];
@@ -170,7 +170,7 @@ namespace BusWatch
                 baselayout.AddView(lay[cnt2].buslayout);
                 baselayout.AddView(lay[cnt2].separator);
                 cnt2++;
-
+                */
                 var button1 = view.FindViewById<Button>(Resource.Id.button1);
                 button1.Click += delegate {
                     //lay[5].busstop.Text = "At leave page";

@@ -45,7 +45,6 @@ C:\Dropbox\Projects\BusWatch_Tab\BusWatch\bin\Debug\BusWatch.pdb
 C:\Dropbox\Projects\BusWatch_Tab\BusWatch\bin\Debug\BusWatch.BusWatch.apk
 C:\Dropbox\Projects\BusWatch_Tab\BusWatch\bin\Debug\BusWatch.BusWatch-Signed.apk
 C:\Dropbox\Projects\BusWatch_Tab\BusWatch\bin\Debug\Xamarin.Android.Support.v4.dll
-C:\Dropbox\Projects\BusWatch_Tab\BusWatch\obj\Debug\BusWatch.csprojResolveAssemblyReference.cache
 C:\Dropbox\Projects\BusWatch_Tab\BusWatch\obj\Debug\BusWatch.dll
 C:\Dropbox\Projects\BusWatch_Tab\BusWatch\obj\Debug\BusWatch.pdb
 C:\Dropbox\Projects\BusWatch_Tab\BusWatch\obj\Debug\android\bin\BusWatch.BusWatch.apk

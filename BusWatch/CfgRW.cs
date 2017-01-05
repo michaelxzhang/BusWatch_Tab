@@ -64,10 +64,8 @@ namespace BusWatch
             string path = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
             string filename = Path.Combine(path, "cfg.txt");
             string[] businfo = {    "Return,74000,,15,9189,Fishcreek LRT",
-                                    "Return,74000,,15,4795,Shawnessy LRT",
-                                    "Return,74000,,15,8232,7-11",
-                                    "Leave,74000,,15,8224,To Shawnessy LRT",
-                                    "Leave,74000,,12,8228,To Somerset LRT"
+                                    "Return,74000,,12,9187,Fishcreek LRT",
+                                    "Leave,74000,,15,9221,To Fishcreek LRT",
                                 };
 
             File.WriteAllLines(filename, businfo);
