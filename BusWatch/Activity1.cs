@@ -104,7 +104,7 @@ namespace BusWatch
                 lay[cnt] = new Buslayout();
                 lay[cnt].createview();
                 lay[cnt].busnum.Text = BusWatch.CfgRW.busstopinfo[cnt, 0];
-                lay[cnt].busstop.Text = BusWatch.CfgRW.busstopinfo[cnt, 2] + ",stop id: " + BusWatch.CfgRW.busstopinfo[cnt, 1] + "\r\n" + "Next bus: ";
+                lay[cnt].busstop.Text = BusWatch.CfgRW.busstopinfo[cnt, 2] + ", stop id: " + BusWatch.CfgRW.busstopinfo[cnt, 1] + "\r\n" + "Next bus: ";
                 baselayout.AddView(lay[cnt].buslayout);
                 baselayout.AddView(lay[cnt].separator);
                 cnt++;
@@ -112,7 +112,7 @@ namespace BusWatch
                 lay[cnt] = new Buslayout();
                 lay[cnt].createview();
                 lay[cnt].busnum.Text = BusWatch.CfgRW.busstopinfo[cnt, 0];
-                lay[cnt].busstop.Text = BusWatch.CfgRW.busstopinfo[cnt, 2] + ",stop id: " + BusWatch.CfgRW.busstopinfo[cnt, 1] + "\r\n" + "Next bus: ";
+                lay[cnt].busstop.Text = BusWatch.CfgRW.busstopinfo[cnt, 2] + ", stop id: " + BusWatch.CfgRW.busstopinfo[cnt, 1] + "\r\n" + "Next bus: ";
                 baselayout.AddView(lay[cnt].buslayout);
                 baselayout.AddView(lay[cnt].separator);
                 cnt++;
@@ -120,7 +120,7 @@ namespace BusWatch
                 lay[cnt] = new Buslayout();
                 lay[cnt].createview();
                 lay[cnt].busnum.Text = BusWatch.CfgRW.busstopinfo[cnt, 0];
-                lay[cnt].busstop.Text = BusWatch.CfgRW.busstopinfo[cnt, 2] + ",stop id: " + BusWatch.CfgRW.busstopinfo[cnt, 1] + "\r\n" + "Next bus: ";
+                lay[cnt].busstop.Text = BusWatch.CfgRW.busstopinfo[cnt, 2] + ", stop id: " + BusWatch.CfgRW.busstopinfo[cnt, 1] + "\r\n" + "Next bus: ";
                 baselayout.AddView(lay[cnt].buslayout);
                 baselayout.AddView(lay[cnt].separator);
                 cnt++;
@@ -158,7 +158,7 @@ namespace BusWatch
                 lay[cnt2] = new Buslayout();
                 lay[cnt2].createview();
                 lay[cnt2].busnum.Text = BusWatch.CfgRW.busstopinfo[cnt2, 0];
-                lay[cnt2].busstop.Text = BusWatch.CfgRW.busstopinfo[cnt2, 2] + ",stop id: " + BusWatch.CfgRW.busstopinfo[cnt2, 1] + "\r\n" + "Next bus: ";
+                lay[cnt2].busstop.Text = BusWatch.CfgRW.busstopinfo[cnt2, 2] + ", stop id: " + BusWatch.CfgRW.busstopinfo[cnt2, 1] + "\r\n" + "Next bus: ";
                 baselayout.AddView(lay[cnt2].buslayout);
                 baselayout.AddView(lay[cnt2].separator);
                 cnt2++;
@@ -166,7 +166,7 @@ namespace BusWatch
                 lay[cnt2] = new Buslayout();
                 lay[cnt2].createview();
                 lay[cnt2].busnum.Text = BusWatch.CfgRW.busstopinfo[cnt2, 0];
-                lay[cnt2].busstop.Text = BusWatch.CfgRW.busstopinfo[cnt2, 2] + ",stop id: " + BusWatch.CfgRW.busstopinfo[cnt2, 1] + "\r\n" + "Next bus: ";
+                lay[cnt2].busstop.Text = BusWatch.CfgRW.busstopinfo[cnt2, 2] + ", stop id: " + BusWatch.CfgRW.busstopinfo[cnt2, 1] + "\r\n" + "Next bus: ";
                 baselayout.AddView(lay[cnt2].buslayout);
                 baselayout.AddView(lay[cnt2].separator);
                 cnt2++;
@@ -191,7 +191,8 @@ namespace BusWatch
             );
 
             pager.Adapter = adaptor;
-            pager.SetOnPageChangeListener(new ViewPageListenerForActionBar(ActionBar));
+            //pager.SetOnPageChangeListener(new ViewPageListenerForActionBar(ActionBar));
+            pager.AddOnPageChangeListener(new ViewPageListenerForActionBar(ActionBar));
 
             ActionBar.AddTab(pager.GetViewPageTab(ActionBar, "Return"));
             ActionBar.AddTab(pager.GetViewPageTab(ActionBar, "Leave"));
