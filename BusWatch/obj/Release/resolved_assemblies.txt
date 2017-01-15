@@ -1,0 +1,11 @@
+C:\Dropbox\Projects\BusWatch_Tab\BusWatch\obj\Release\android\assets\BusWatch.dll
+C:\Dropbox\Projects\BusWatch_Tab\BusWatch\obj\Release\android\assets\Java.Interop.dll
+C:\Dropbox\Projects\BusWatch_Tab\BusWatch\obj\Release\android\assets\Mono.Android.dll
+C:\Dropbox\Projects\BusWatch_Tab\BusWatch\obj\Release\android\assets\Mono.Android.Export.dll
+C:\Dropbox\Projects\BusWatch_Tab\BusWatch\obj\Release\android\assets\mscorlib.dll
+C:\Dropbox\Projects\BusWatch_Tab\BusWatch\obj\Release\android\assets\System.Core.dll
+C:\Dropbox\Projects\BusWatch_Tab\BusWatch\obj\Release\android\assets\System.dll
+C:\Dropbox\Projects\BusWatch_Tab\BusWatch\obj\Release\android\assets\System.Xml.dll
+C:\Dropbox\Projects\BusWatch_Tab\BusWatch\obj\Release\android\assets\Xamarin.Android.Support.v4.dll
+C:\Dropbox\Projects\BusWatch_Tab\BusWatch\obj\Release\android\assets\System.Runtime.Serialization.dll
+C:\Dropbox\Projects\BusWatch_Tab\BusWatch\obj\Release\android\assets\System.ServiceModel.Internals.dll

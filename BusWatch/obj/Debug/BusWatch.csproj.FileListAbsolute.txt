@@ -54,6 +54,7 @@ C:\Dropbox\Projects\BusWatch_Tab\BusWatch\obj\Debug\res\values\strings.xml
 C:\Dropbox\Projects\BusWatch_Tab\BusWatch\obj\Debug\res\drawable\icon.png
 C:\Dropbox\Projects\BusWatch_Tab\BusWatch\obj\Debug\R.cs.flag
 C:\Dropbox\Projects\BusWatch_Tab\BusWatch\obj\Debug\uploadflags.txt
+C:\Dropbox\Projects\BusWatch_Tab\BusWatch\obj\Debug\BusWatch.csprojResolveAssemblyReference.cache
 C:\Dropbox\Projects\BusWatch_Tab\BusWatch\bin\Debug\BusWatch.dll.mdb
 C:\Dropbox\Projects\BusWatch_Tab\BusWatch\bin\Debug\Java.Interop.dll.mdb
 C:\Dropbox\Projects\BusWatch_Tab\BusWatch\bin\Debug\Mono.Android.dll.mdb
