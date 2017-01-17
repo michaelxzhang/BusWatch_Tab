@@ -137,9 +137,9 @@ namespace BusWatch
                     SmsManager.Default.SendTextMessage(BusWatch.CfgRW.busstopinfo[cnt, 3], null, msg, null, null);
                     cnt++;
 
-                    msg = BusWatch.CfgRW.busstopinfo[cnt, 1] + "#" + BusWatch.CfgRW.busstopinfo[cnt, 0];
-                    SmsManager.Default.SendTextMessage(BusWatch.CfgRW.busstopinfo[cnt, 3], null, msg, null, null);
-                    cnt++;
+                    //msg = BusWatch.CfgRW.busstopinfo[cnt, 1] + "#" + BusWatch.CfgRW.busstopinfo[cnt, 0];
+                    //SmsManager.Default.SendTextMessage(BusWatch.CfgRW.busstopinfo[cnt, 3], null, msg, null, null);
+                    //cnt++;
 
                 };
 
@@ -179,9 +179,9 @@ namespace BusWatch
                     SmsManager.Default.SendTextMessage(BusWatch.CfgRW.busstopinfo[cnt2, 3], null, msg, null, null);
                     cnt2++;
 
-                    msg = BusWatch.CfgRW.busstopinfo[cnt2, 1] + "#" + BusWatch.CfgRW.busstopinfo[cnt2, 0];
-                    SmsManager.Default.SendTextMessage(BusWatch.CfgRW.busstopinfo[cnt2, 3], null, msg, null, null);
-                    cnt2++;
+                    //msg = BusWatch.CfgRW.busstopinfo[cnt2, 1] + "#" + BusWatch.CfgRW.busstopinfo[cnt2, 0];
+                    //SmsManager.Default.SendTextMessage(BusWatch.CfgRW.busstopinfo[cnt2, 3], null, msg, null, null);
+                    //cnt2++;
                 };
 
                 //BusWatch.CfgRW.Readcfg();
